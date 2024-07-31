@@ -510,5 +510,11 @@ body{
 }
 
 .p-sect2-ct {
-    font-size: calc(5px + 1vw);
+    font-size: calc(1px + 1vw);
+}
+
+/* contact */
+/* ======= */
+.btn-w {
+    width: 20% !important;
 }
