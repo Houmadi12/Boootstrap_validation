@@ -279,18 +279,6 @@ body{
     }
 }
 
-/* @media screen and (max-width:529px) and (min-width:486px){
-    .sect6{
-        height: 95vh;
-    }
-}
-
-@media screen and (max-width:485px) {
-    .sect6{
-        height: 3000vh;
-    }
-} */
-
 /* Section 7 */
 .fs-p{
     font-family: 'Roboto',Verdana, Geneva, Tahoma, sans-serif;
@@ -327,5 +315,70 @@ body{
 }
 
 .img-hover:hover {
-   opacity: 0.8;
+   opacity: 0.6;
 }
+
+/* Shop page */
+/* ========== */
+
+/* section1 */
+#sect1_shop{
+    height: 50vh;
+}
+
+.bg-hover::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0;
+    bottom:0;
+    transition: .7s;
+}
+
+.col-test:hover .bg-hover::before{
+    background: #DDE2EB;
+    border-radius: 10px;
+    height: 60%;
+
+}
+
+.icon-hover {
+    font-size: 32px;
+    left: 44%;
+    bottom: 0;
+    transition-duration: .7s;
+}
+
+.icon-plus{
+    transition-duration: .7s;
+    color: transparent !important;
+}
+
+.col-test:hover .icon-plus{
+    color: #000 !important;
+}
+
+.col-test:hover .icon-hover{
+    /* display: block; */
+    /* visibility: visible; */
+    bottom: -23px;
+}
+
+.div-img{
+    height: 300px;
+    position: relative;
+}
+
+.col-test:hover .div-img{
+    height: 300px;
+}
+
+.img-hover{
+    padding: 20px;
+    transition-duration: 2s;
+}
+
+.col-test:hover .img-hover {
+    padding-top: 0px;
+}
+
