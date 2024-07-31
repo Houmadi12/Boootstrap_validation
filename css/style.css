@@ -359,8 +359,6 @@ body{
 }
 
 .col-test:hover .icon-hover{
-    /* display: block; */
-    /* visibility: visible; */
     bottom: -23px;
 }
 
@@ -382,3 +380,135 @@ body{
     padding-top: 0px;
 }
 
+/* Resonsive */
+@media screen and (max-width: 892px) and (min-width:768px){
+    .div-img {
+        height: 150px;
+        position: relative;
+    }
+    
+    .col-test:hover .div-img{
+        height: 150px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) and (min-width: 565px) {
+    .div-img {
+        height: 540px;
+        position: relative;
+    }
+    
+    .col-test:hover .div-img{
+        height: 540px;
+    }
+}
+
+@media screen and (max-width: 564px) {
+    .div-img {
+        height: 400px;
+        position: relative;
+    }
+    
+    .col-test:hover .div-img{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 522px) {
+    .div-img {
+        height: 350px;
+        position: relative;
+    }
+    
+    .col-test:hover .div-img{
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 494px) {
+    .div-img {
+        height: 300px;
+        position: relative;
+    }
+    
+    .col-test:hover .div-img{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 463px) and (min-width: 419px){
+    .div-img {
+        height: 250px;
+        position: relative;
+    }
+    
+    .col-test:hover .div-img{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:418px)  and (min-width:412px){
+    .div-img {
+        height: 250px;
+        position: relative;
+    }
+    
+    .col-test:hover .div-img{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:411px) and (min-width: 390px){
+    .div-img {
+        height: 210px;
+        position: relative;
+    }
+    
+    .col-test:hover .div-img{
+        height: 210px;
+    }
+}
+
+@media screen and (max-width:390px){
+    .div-img {
+        height: 220px;
+        position: relative;
+    }
+    
+    .col-test:hover .div-img{
+        height: 220px;
+    }
+}
+
+/* About CSS */
+/* ========= */
+
+.p-card-about{
+    font-size: 12px;
+    font-weight: 600;
+    color: #7b7c7c;
+}
+
+.h6-card-about {
+    font-size: 14px;
+}
+
+/* Page Contact */
+/* =========== */
+
+.icon-contac{
+    font-size: 14px;
+    color: #fff;
+    background-color: #09615b;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+}
+
+.p-sect2-ct {
+    font-size: calc(5px + 1vw);
+}
